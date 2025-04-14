@@ -14,7 +14,7 @@ const News = (props) => {
     }
     
     useEffect(() => {
-        document.title = `${capitalizeFirstLetter(props.category)} - Samachar`;
+        document.title = `${capitalizeFirstLetter(props.category)} - Khabri`;
     }, [props.category]);
 
     const updateNews = async () => {
@@ -42,7 +42,7 @@ const News = (props) => {
     return (
         <div>
           <div className="container my-3">
-            <h1 className='text-center' style={{marginTop: "80px"}}>Samachar - Top {capitalizeFirstLetter(props.category)} News</h1>
+            <h1 className='text-center' style={{marginTop: "80px"}}>Khabri - Top {capitalizeFirstLetter(props.category)} News</h1>
             {loading && <Spinner />}
             <div className="row">
               {!loading && articles?.length > 0 && articles.map((element) => {

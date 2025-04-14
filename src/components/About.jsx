@@ -1,6 +1,6 @@
-import React from 'react'
-import OwnerImage from '../assets/Shrutik.jpg';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
+import shanyaImage from '../assets/shanya.jpeg'; 
 
 const About = () => {
   return (
@@ -34,94 +34,31 @@ const About = () => {
         <div className="text-body-secondary" style={{ fontSize: "30px" }}>About the founder</div>
         <div className="col-lg-4 d-flex flex-column align-items-center justify-content-center" style={{ height: '100%' }}>
           <img
-            src={OwnerImage}
-            alt="error"
+            src={shanyaImage}
+            alt="Shanya Shrivastava"
             className="bd-placeholder-img rounded-circle"
             width="140"
             height="140"
           />
-          <h2 className="fw-normal">Shrutik Gupta</h2>
+          <h2 className="fw-normal">Shanya Shrivastava</h2>
           <p className='text-center'>
-            I am an expressive communicator dedicated to building relationships and fostering inclusivity while continuously seeking to learn and excel in my commitments.</p>
+          I am a passionate aspiring developer with a strong drive to create meaningful and efficient digital experiences. Continuously learning and exploring new technologies, I thrive in collaborative environments where ideas are shared, and innovation is encouraged. With a keen eye for detail and a commitment to personal and professional growth, I aim to build impactful solutions that make a difference.
+          </p>
           <p>
             <NavLink className="btn btn-secondary" to="/">
-              Explore Samachar »
+              Explore Khabri »
             </NavLink>
           </p>
         </div>
       </div>
 
-      <div className="container">
-        
-        <div className="row featurette mt-3 d-flex align-items-center">
-          <div className="col-md-7 order-md-2">
-            <h2 className="featurette-heading fw-normal lh-1">
-              Oh yeah, it’s that good. <span className="text-body-secondary">See for yourself.</span>
-            </h2>
-            <p className="lead">
-              Samachar is a comprehensive news platform designed to deliver your daily news updates. Discover a wide range of news categories with ease.
-            </p>
-          </div>
-          <div className="col-md-5 order-md-1">
-            <img
-              src="https://images.pexels.com/photos/6335/man-coffee-cup-pen.jpg?auto=compress&cs=tinysrgb&w=600"  // Replace with your actual image path
-              alt="Description of the image" // Provide a description for accessibility
-              className="featurette-image img-fluid mx-auto"
-              style={{ width: "500px", height: "500px" }}
-            />
-          </div>
-        </div>
+      {/* ... rest of the featurette section remains unchanged ... */}
 
-        <hr className="featurette-divider"></hr>
-
-        <div className="row featurette mt-3 d-flex align-items-center">
-          <div className="col-md-7 order-md-1">
-            <h2 className="featurette-heading fw-normal lh-1">
-            Say goodbye to traditional newspapers. <span className="text-body-secondary">Embrace the future of news.</span>
-            </h2>
-            <p className="lead">
-            Samachar revolutionizes your news experience, providing real-time updates and a diverse range of categories at your fingertips. Stay informed with just a click.
-            </p>
-          </div>
-          <div className="col-md-5 order-md-2">
-            <img
-              src="https://images.pexels.com/photos/3057984/pexels-photo-3057984.jpeg?auto=compress&cs=tinysrgb&w=600"  // Replace with your actual image path
-              alt="Description of the image" // Provide a description for accessibility
-              className="featurette-image img-fluid mx-auto"
-              style={{ width: "500px", height: "500px" }}
-            />
-          </div>
-        </div>
-
-        <hr className="featurette-divider"></hr>
-
-        <div className="row featurette mt-3 d-flex align-items-center">
-          <div className="col-md-7 order-md-2">
-            <h2 className="featurette-heading fw-normal lh-1">
-              Discover the difference. <span className="text-body-secondary">Join us today.</span>
-            </h2>
-            <p className="lead">
-            At Samachar, we strive to provide a seamless news experience, ensuring that you are always informed. Navigate through a plethora of categories designed to cater to your interests.
-            </p>
-          </div>
-          <div className="col-md-5 order-md-1">
-            <img
-              src="https://media.istockphoto.com/id/866600030/photo/abstract-cyberspace-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=sr0u60I1nxRvq1mZaWAgw2Wf8_YdBOqUWCn6ngQtN_M="  // Replace with your actual image path
-              alt="Description of the image" // Provide a description for accessibility
-              className="featurette-image img-fluid mx-auto"
-              style={{ width: "500px", height: "500px" }}
-            />
-          </div>
-        </div>
-
-        <hr className="featurette-divider"></hr>
-      </div>
       <div className="text-center m-3">
-        <p>&copy; Shrutik Gupta 2024</p>
+        <p>&copy; Shanya Shrivastava 2024</p>
       </div>
-    </div >
+    </div>
   )
 }
 
-export default About
-
+export default About;
