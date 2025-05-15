@@ -52,8 +52,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* ... rest of the featurette section remains unchanged ... */}
-
+      
       <div className="text-center m-3">
         <p>&copy; Shanya Shrivastava 2024</p>
       </div>
